@@ -1,0 +1,125 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+}
+
+/* Perfume Image */
+.img--perfume {
+    background-image: url("sekut.png");
+    width: 500px;
+    height: 230px;
+}
+
+/* Perfume Container */
+.container--perfume {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Content Section */
+.content--perfume {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+/* Title and Recap Content */
+.contentRecap_content--perfume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_contentRecap_content--perfume {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.size_contenRecap_content--perfume {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+/* Notes Section */
+.notes--perfume {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.content_notes--perfume {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Description */
+.description--perfume {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 11px 0px;
+}
+
+/* Pricing */
+.pricing--perfume {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.discounted_pricing--perfume {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.based_pricing--perfume {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+/* Button Styles */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0px 10px 0px;
+    border-radius: 10px;
+    background: #333;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* Color Styles */
+.title_contentRecap_content--perfume,
+.discounted_pricing--perfume {
+    color: #333333;
+}
+
+.content_notes--perfume,
+.description--perfume {
+    color: #666;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 0px;
+}
